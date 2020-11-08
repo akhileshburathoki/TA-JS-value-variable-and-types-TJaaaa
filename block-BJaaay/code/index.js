@@ -1,13 +1,40 @@
-//  Loop basics
+let user=prompt(`Your name`)
+alert(user)
+let userName=(user)
+console.log (user, userName)
+var age=22
+, isLearning=true;
+user=(`john`)
+console.log (user, userName)
+let num1=prompt(`Write a number`)
+let num2=prompt(`Write another number`)
+let sum=(num1 + num2)
+alert(sum)
 
-// Do the following using loops:
+for(let j=0; j<=10; j = j + 2) {
+    console.log(j)
+}
+for(let a=0;a<=10;a=a + 1){
+    if(a % 2 !== 0 ){
+        alert(a)
+    }
+}
+let i=5;
+let final = ""
 
-// Using `console.log` log all the values from 1 to 10.
+while(i >= 0){
+    final = final + i;
+    i = i - 1;
+}
+alert(final);
 
-// Using `console.log` log all the evan values from 1 to 10.
-
-// Using `console.log` log all the od values from 1 to 10.
-
-// Calculate the sum of all numbers from 1 to 10.
-
-// Log all the values from 1 to 10 using while loop
+let b=10;
+ final = "";
+while(b >= 0){
+    if(b % 2 == 0){
+        final = final + b;
+    }
+    b = b - 1;
+}
+alert(final)
+console.log (final)
