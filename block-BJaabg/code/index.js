@@ -1,18 +1,40 @@
-/*
-🎖 Write a program to calculate the total price of your phone purchase. With these conditions
- * [ ] You will keep purchasing phones (hint: loop!) until you run out of bank balance.
- * [ ] You'll also buy accessories for each phone as long as your purchase amount is below your spending threshold.
- * [ ] After you've calculated your purchase amount, add in the tax, then print out the calculated purchase amount, properly formatted like ($334.76).
- * [ ] Finally, check the amount against your bank account balance to see if you can afford it or not.
-*/
+let user=prompt(`Your name`)
+alert(user)
+let userName=(user)
+console.log (user, userName)
+var age=22
+, isLearning=true;
+user=(`john`)
+console.log (user, userName)
+let num1=prompt(`Write a number`)
+let num2=prompt(`Write another number`)
+let sum=(num1 + num2)
+alert(sum)
 
-const SPENDING_THRESHOLD = 200;
-const TAX_RATE = 0.08;
-const PHONE_PRICE = 99.99;
-const ACCESSORY_PRICE = 9.99;
+for(let j=0; j<=10; j = j + 2) {
+    console.log(j)
+}
+for(let a=0;a<=10;a=a + 1){
+    if(a % 2 !== 0 ){
+        alert(a)
+    }
+}
+let i=5;
+let final = ""
 
-var bank_balance = 303.91;
-var amount = 0;
-// your code goes here
+while(i >= 0){
+    final = final + i;
+    i = i - 1;
+}
+alert(final);
 
-// ⛑ Answer of the above will `$334.76`.
+let b=10;
+ final = "";
+while(b >= 0){
+    if(b % 2 == 0){
+        final = final + b;
+    }
+    b = b - 1;
+}
+alert(final)
+console.log (final)
