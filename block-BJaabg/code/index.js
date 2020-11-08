@@ -37,4 +37,4 @@ while(b >= 0){
     b = b - 1;
 }
 alert(final)
-console.log (final)
+console.log (final);
