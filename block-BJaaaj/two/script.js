@@ -1,0 +1,10 @@
+var wiseMan = "Tyrion Lannister";
+wiseMen="Samwell Tarly";
+let userName="Lysa Arryn";
+let oddNumber=57;
+oddNumber=61;
+let amount=4280;
+let reduceAmount=4280 - 24;
+let addedAmount=4280 + 32;
+let multipleAmount=4280 * 7;
+let divededAmount=4280 / 57;
